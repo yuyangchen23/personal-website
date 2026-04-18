@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { ProjectCard } from "./ProjectsCard.jsx"
-import { PROJECTS } from "../component/constants.js";
+import { PROJECTS } from "../../component/constants.js";
 
 export function Projects() {
   return (
@@ -14,7 +14,7 @@ export function Projects() {
             </h3>
           </div>
           <div className="text-white/40 italic text-lg">
-            2021-2026
+            2021-2025
           </div>
         </div>
 

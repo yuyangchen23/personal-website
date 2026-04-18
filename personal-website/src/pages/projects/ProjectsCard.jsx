@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { ExternalLink } from 'lucide-react'
-import gitHub from '../assets/github.png'
+import gitHub from '../../assets/github.png'
 
 export const ProjectCard = ({ project, index }) => {
   return (

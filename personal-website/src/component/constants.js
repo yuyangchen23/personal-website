@@ -28,3 +28,19 @@ export const PROJECTS = [
     featured: true,
   }
 ];
+
+
+export const EXPERIENCE = [
+  {
+    id: 'exp1',
+    company: 'Tech Innovators Inc.',
+    position: 'Intern',
+    period: 'Feb 2026 - Present',
+    description: [
+      'Led the migration of a legacy dashboard to a modern React-based architecture.',
+      'Implemented design system components used across 5 different products.',
+      'Optimized application performance, reducing load times by 40%.',
+    ],
+    skills: ['React', 'TypeScript', 'Performance', 'UX Design'],
+  },
+];
