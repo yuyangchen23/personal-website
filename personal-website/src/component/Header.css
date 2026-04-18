@@ -1,0 +1,20 @@
+.header {
+  background-color: #2E6F40;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header .left-section {
+  color: whitesmoke;
+  font-size: 30px;
+  padding-left: 10px;
+
+}

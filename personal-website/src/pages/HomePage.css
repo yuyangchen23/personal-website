@@ -1,0 +1,39 @@
+.home-page {
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+}
+.profile-container {
+  display: flex;
+}
+
+.profile-img {
+  width: 270px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.intro-container {
+  margin-left: 300px;
+  font-size: 20px;
+  background-color: #92cca2;
+
+  width: 600px;
+  border: 1.5px solid #5aa26e;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px #888888;
+  padding: 10px 15px;
+  
+
+}
+
+.typewriter-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.intro {
+  margin-top: 10px;
+  line-height: 25px;
+}

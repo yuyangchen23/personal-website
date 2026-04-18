@@ -1,8 +1,31 @@
-body {
-  font-family: tiempos, Lucida, Georgia, "serif" !important;
-  color: rgb(33, 33, 33);
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: tiempos, Lucida, Georgia, "serif" !important;
+
+  --color-glass: rgba(255, 255, 255, 0.03);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+  --color-accent: #2dd4bf;
+  --color-purple: #7c3aed;
+  --color-blue: #3b82f6;
+  --color-bg-dark: #0f172a;
 }
 
-p {
-  margin: 0;
+@layer base {
+  body {
+    @apply bg-bg-dark text-white font-sans antialiased min-h-screen relative overflow-x-hidden;
+    background:
+      radial-gradient(at 0% 0%, var(--color-purple) 0, transparent 40%),
+      radial-gradient(at 100% 0%, var(--color-accent) 0, transparent 40%),
+      radial-gradient(at 50% 100%, var(--color-blue) 0, transparent 50%),
+      #0f172a;
+      background-attachment: fixed;
+  }
 }
+
+.glass {
+  @apply bg-glass backdrop-blur-3xl border border-glass-border shadow-2xl;
+}
+
+
