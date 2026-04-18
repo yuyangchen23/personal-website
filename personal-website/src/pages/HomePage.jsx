@@ -1,7 +1,6 @@
 import profileImg from '../assets/profile.PNG'
 import { motion } from 'motion/react'
 import { ArrowRight } from 'lucide-react'
-import './HomePage.css'
 import { Header } from '../component/Header';
 
 
