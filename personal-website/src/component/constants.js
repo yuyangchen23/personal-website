@@ -44,3 +44,18 @@ export const EXPERIENCE = [
     skills: ['React', 'TypeScript', 'Performance', 'UX Design'],
   },
 ];
+
+export const SKILLS = [
+  {
+    category: 'Frontend',
+    items: ['React', 'Next.js', 'Javascript', 'Tailwind CSS, Framer motion'],
+  },
+  {
+    category: 'Backend',
+    items: ['Node.js', 'PostgreSQL'],
+  },
+  {
+    category: 'Tools',
+    items: ['Git', 'Docker', 'Vite', 'Trello'],
+  },
+];
