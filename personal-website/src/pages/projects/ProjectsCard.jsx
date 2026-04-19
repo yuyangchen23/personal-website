@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { ExternalLink } from 'lucide-react'
-import gitHub from '../../assets/github.png'
+import { FaGithub } from 'react-icons/fa'
 
 export const ProjectCard = ({ project, index }) => {
   return (
@@ -19,8 +19,8 @@ export const ProjectCard = ({ project, index }) => {
           referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-bg-dark/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center gap-4">
-          <a href={project.github} className="w-12 h-12 glass rounded-full flex items-center justify-center text-white hover:bg-accent hover:text-bg-dark transition-colors">
-            <img src={gitHub} alt="" />
+          <a href={project.github} className="text-[50px] w-12 h-12 glass rounded-full flex items-center justify-center text-white hover:bg-accent hover:text-bg-dark transition-colors">
+            <FaGithub aria-hidden="true" />
           </a>
           <a href={project.link} className="w-12 h-12 glass rounded-full flex items-center justify-center text-white hover:bg-accent hover:text-bg-dark transition-colors">
             <ExternalLink size={20} />

@@ -1,7 +1,7 @@
 import profileImg from '../assets/profile.PNG'
 import { motion } from 'motion/react'
 import { ArrowRight } from 'lucide-react'
-import { Header } from '../component/Header';
+import { Header } from './header/Header';
 
 
 export function HomePage() {
@@ -49,15 +49,15 @@ export function HomePage() {
         </motion.div>
 
         <motion.div
-          initial={{opacity: 0, scale: 0.8, rotate: -5}}
-          animate={{opacity: 1, scale: 1, rotate: 0}}
-          transition={{duration: 1.2, ease: [0.6, 1, 0.3, 1], delay:0.2}}
+          initial={{ opacity: 0, scale: 0.8, rotate: -5 }}
+          animate={{ opacity: 1, scale: 1, rotate: 0 }}
+          transition={{ duration: 1.2, ease: [0.6, 1, 0.3, 1], delay: 0.2 }}
           className='relative hidden lg:block'
         >
           <div className='aspect-11/12 rounded-[32px] overflow-hidden shadow-2xl relative z-10 border border-white/20'>
-            <img 
-              src={profileImg} 
-              alt="Portrait" 
+            <img
+              src={profileImg}
+              alt="Portrait"
               className='w-full h-full object-cover'
             />
             <div className='absolute inset-0 bg-linear-to-t from-bg-dark/40 to-transparent'></div>
