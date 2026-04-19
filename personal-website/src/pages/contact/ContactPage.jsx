@@ -36,8 +36,8 @@ export function ContactPage() {
                 <ArrowUpRight className='transition-transform group-hover:translate-x-1 group-hover:-translate-y-1'/>
             </a>
             <div className='flex gap-4'>
-              <SocialLink href='#' label='GitHub' />
-              <SocialLink href="#" label='LinkedIn' />
+              <SocialLink href='https://github.com/yuyangchen23' label='GitHub' />
+              <SocialLink href="https://www.linkedin.com/in/yu-yang-bryan-chen-a7653b297" label='LinkedIn' />
             </div>
           </div>
         </motion.div>

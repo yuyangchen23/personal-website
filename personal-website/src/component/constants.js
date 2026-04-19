@@ -48,7 +48,7 @@ export const EXPERIENCE = [
 export const SKILLS = [
   {
     category: 'Frontend',
-    items: ['React', 'Next.js', 'Javascript', 'Tailwind CSS, Framer motion'],
+    items: ['React', 'Next.js', 'Javascript', 'Tailwind CSS', 'Framer motion'],
   },
   {
     category: 'Backend',
