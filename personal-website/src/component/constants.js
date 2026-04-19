@@ -33,15 +33,15 @@ export const PROJECTS = [
 export const EXPERIENCE = [
   {
     id: 'exp1',
-    company: 'Tech Innovators Inc.',
+    company: 'Cama Cafe Inc.',
     position: 'Intern',
-    period: 'Feb 2026 - Present',
+    period: 'Feb 2026 - Apr 2026',
     description: [
-      'Led the migration of a legacy dashboard to a modern React-based architecture.',
-      'Implemented design system components used across 5 different products.',
-      'Optimized application performance, reducing load times by 40%.',
+      'Utilized modern-react tools to establish a fundamental layout for companies\' internal website',
+      'Implemented designed system components to specific projects',
+      'Optimized user interface, ensuring user-friendly UI across different devices',
     ],
-    skills: ['React', 'TypeScript', 'Performance', 'UX Design'],
+    skills: ['React', 'Javascript', 'Performance', 'UX Design'],
   },
 ];
 
