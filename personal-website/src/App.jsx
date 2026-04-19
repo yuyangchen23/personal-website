@@ -16,6 +16,7 @@ function App() {
       <Experience />
       <SkillsSection />
       <ContactPage />
+      <Footer />
 
     </div>
       
