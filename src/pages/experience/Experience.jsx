@@ -1,5 +1,5 @@
-
 import { ExperienceMap } from './ExperienceMap.jsx';
+import resumePdf from '../../component/Bryan Chen\'s Resume.pdf';
 
 export function Experience() {
   return (
@@ -15,7 +15,7 @@ export function Experience() {
               A track record of delivering high-quality web experiences across diverse industries.
             </p>
             <a
-              href="/src/component/Bryan Chen's Resume.pdf" 
+              href={resumePdf}
               download="Bryan-Chen-Resume.pdf"
               aria-label="Download Bryan Chen's Resume as a PDF"
               className="inline-flex items-center gap-2 text-md font-bold uppercase tracking-widest border-b-2 border-white pb-1 hover:text-accent hover:border-accent transition-all">
