@@ -15,9 +15,12 @@ export function Experience() {
               A track record of delivering high-quality web experiences across diverse industries.
             </p>
             <a
-              href="#"
+              href="/src/component/Bryan Chen's Resume.pdf" 
+              download="Bryan-Chen-Resume.pdf"
+              aria-label="Download Bryan Chen's Resume as a PDF"
               className="inline-flex items-center gap-2 text-md font-bold uppercase tracking-widest border-b-2 border-white pb-1 hover:text-accent hover:border-accent transition-all">
                 Download Resume
+                <span className='text-xs font-normal opacity-70'>(PDF, 78KB)</span>
               </a>
           </div>
 

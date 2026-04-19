@@ -37,8 +37,8 @@ export const EXPERIENCE = [
     position: 'Intern',
     period: 'Feb 2026 - Apr 2026',
     description: [
-      'Utilized modern-react tools to establish a fundamental layout for companies\' internal website',
-      'Implemented designed system components to specific projects',
+      'Utilized modern-react tools to establish a fundamental layout for the restaurant\'s website',
+      'Implemented designed system components to a specific project',
       'Optimized user interface, ensuring user-friendly UI across different devices',
     ],
     skills: ['React', 'Javascript', 'Performance', 'UX Design'],

@@ -19,13 +19,13 @@ export function HeaderMap({ navLinks}) {
       ))}
 
       <div className="flex gap-4 pl-4 border-l border-white/10">
-        <a href="#" className="text-white/40 hover:text-white transition-colors">
+        <a href="https://github.com/yuyangchen23" target="_blank" className="text-white/40 hover:text-white transition-colors">
           <FaGithub aria-hidden="true" />
         </a>
-        <a href="#" className="text-white/40 hover:text-white transition-colors">
+        <a href="https://www.linkedin.com/in/yu-yang-bryan-chen-a7653b297" target="_blank" className="text-white/40 hover:text-white transition-colors">
           <FaLinkedin aria-hidden="true" />
         </a>
-        <a href="#" className="text-white/40 hover:text-white transition-colors">
+        <a href="mailto: bryanchen0923@gmail.com" className="text-white/40 hover:text-white transition-colors">
           <FaEnvelope aria-hidden="true" />
         </a>
       </div>

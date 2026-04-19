@@ -56,7 +56,7 @@ export function Header() {
           animate={{ opacity: 1, height: 'auto' }}
           className="md:hidden glass border-b border-white/10 px-6 py-8"
         >
-          <HeaderMapMobile navLinks={navLinks}/>
+          <HeaderMapMobile setIsOpen={setIsOpen} navLinks={navLinks}/>
         </motion.div>
       )}
     </nav>
