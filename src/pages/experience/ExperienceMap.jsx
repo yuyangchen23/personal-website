@@ -13,21 +13,21 @@ export function ExperienceMap() {
           transition={{ delay: i * 0.1 }}
           className='relative pl-8 border-l border-white/10'
         >
-          <div className='absolute top-0 left-[-5px] w-[10px] h-[10px] rounded-full bg-accent shadow-[0_0_15px-rgba(45,212,191,0.5)]'></div>
+          <div className='absolute top-0 left-[-5px] w-[10px] h-[10px] rounded-full bg-brown shadow-[0_0_15px-rgba(45,212,191,0.5)]'></div>
 
           <div className='flex flex-col md:flex-row justify-between items-start mb-4 gap-2'>
             <div>
               <h4 className='text-xl font-bold'>{exp.position}</h4>
-              <p className='text-accent font-medium'>{exp.company}</p>
+              <p className='text-dark-brown font-medium'>{exp.company}</p>
             </div>
-            <span className='text-sm font-mono text-white/40 glass px-3 py-1 rounded-full border-white/5'>
+            <span className='text-sm font-mono text-white/70 glass px-3 py-1 rounded-full border-white'>
               {exp.period}
             </span>
           </div>
 
           <ul className='space-y-3 mb-6'>
             {exp.description.map((item, j) => (
-              <li key={j} className='text-white/70 text-sm leading-relaxed flex gap-3'>
+              <li key={j} className='text-white text-md leading-relaxed flex gap-3'>
                 <span className='text-accent mt-1.5 w-1.5 h-1.5 rounded-full shrink-0'></span>
                 {item}
               </li>
@@ -36,7 +36,7 @@ export function ExperienceMap() {
 
           <div className='flex flex-wrap gap-2 text-[12px] font-bold uppercase tracking-tighter'>
             {exp.skills.map(skill => (
-              <span key={skill} className='text-white/40'>#{skill}</span>
+              <span key={skill} className='text-white/70'>#{skill}</span>
             ))}
           </div>
         </motion.div>

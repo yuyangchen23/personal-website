@@ -12,7 +12,7 @@ export function ContactPage() {
           viewport={{ once: true }}
           className='mb-12'
         >
-          <div className='inline-block glass p-4 rounded-full text-accent mb-8 border-accent/20' >
+          <div className='inline-block glass p-4 rounded-full text-brown mb-8 border-brown/20' >
             <MessageSquare size={32} />
           </div>
 
@@ -30,7 +30,7 @@ export function ContactPage() {
           <div className='flex flex-col sm:flex-row gap-6 justify-center items-center'>
             <a
               href="mailto:bryanchen0923@gmail.com"
-              className='group bg-accent text-bg-dark px-10 py-5 rounded-full flex items-center gap-3 font-bold transition-transform hover:scale-105'>
+              className='group bg-brown text-bg-dark px-10 py-5 rounded-full flex items-center gap-3 font-bold transition-transform hover:scale-105'>
                 <Mail size={20} />
                 bryanchen0923@gmail.com
                 <ArrowUpRight className='transition-transform group-hover:translate-x-1 group-hover:-translate-y-1'/>
@@ -42,7 +42,7 @@ export function ContactPage() {
           </div>
         </motion.div>
       </div>
-      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/10 rounded-full blur-xl -z-10'></div>
+      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-dark-brown/15 rounded-full blur-xl -z-10'></div>
     </section>
   );
 }

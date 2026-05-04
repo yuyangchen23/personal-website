@@ -8,7 +8,7 @@ export function Projects() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div max-w-2xl>
-            <h2 className="text-sm uppercase tracking-[0.3rem] font-bold text-accent">selected works</h2>
+            <h2 className="text-sm uppercase tracking-[0.3rem] font-bold text-brown">selected works</h2>
             <h3 className="text-4xl md:text-5xl font-bold tracking-tight">
               A collection of school projects
             </h3>

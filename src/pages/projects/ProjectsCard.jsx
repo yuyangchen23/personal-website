@@ -18,14 +18,7 @@ export const ProjectCard = ({ project, index }) => {
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
           referrerPolicy="no-referrer"
         />
-        <div className="absolute inset-0 bg-bg-dark/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center gap-4">
-          {/* <a href={project.github} className="text-[50px] w-12 h-12 glass rounded-full flex items-center justify-center text-white hover:bg-accent hover:text-bg-dark transition-colors">
-            <FaGithub aria-hidden="true" />
-          </a>
-          <a href={project.link} className="w-12 h-12 glass rounded-full flex items-center justify-center text-white hover:bg-accent hover:text-bg-dark transition-colors">
-            <ExternalLink size={20} />
-          </a> */}
-        </div>
+        <div className="absolute inset-0 bg-bg-dark/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center gap-4" />
       </div>
 
       <div className="flex flex-wrap gap-2 mb-4">
@@ -36,7 +29,7 @@ export const ProjectCard = ({ project, index }) => {
         ))}
       </div>
 
-      <h4 className="text-2xl font-bold mb-3 group-hover:text-accent transition-colors">
+      <h4 className="text-2xl font-bold mb-3 group-hover:text-dark-brown transition-colors">
         {project.title}
       </h4>
       <p className="text-white/50 leading-relaxed mb-6">

@@ -7,7 +7,7 @@ export function Experience() {
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-1">
-            <h2 className="text-sm uppercase tracking-[0.3rem] font-bold text-accent mb-6">Experience</h2>
+            <h2 className="text-sm uppercase tracking-[0.3rem] font-bold text-brown mb-6">Experience</h2>
             <h3 className="text-4xl md:text-5xl font-bold tracking-tight mb-8">
               Professional Journey
             </h3>
@@ -18,7 +18,7 @@ export function Experience() {
               href={resumePdf}
               download="Bryan-Chen-Resume.pdf"
               aria-label="Download Bryan Chen's Resume as a PDF"
-              className="inline-flex items-center gap-2 text-md font-bold uppercase tracking-widest border-b-2 border-white pb-1 hover:text-accent hover:border-accent transition-all">
+              className="inline-flex items-center gap-2 text-md font-bold uppercase tracking-widest border-b-2 border-white pb-1 hover:text-dark-brown hover:border-dark-brown transition-all">
                 Download Resume
                 <span className='text-xs font-normal opacity-70'>(PDF, 78KB)</span>
               </a>

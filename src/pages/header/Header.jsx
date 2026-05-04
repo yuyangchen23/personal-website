@@ -38,7 +38,7 @@ export function Header() {
           className='text-2xl font-bold tracking-tighter'
         >
           BC
-          <span className='text-accent'>.</span>
+          <span className='text-brown'>.</span>
         </motion.a>
 
         <HeaderMap isOpen={isOpen} setIsOpen={setIsOpen} navLinks={navLinks}/>
