@@ -29,11 +29,10 @@ export const PROJECTS = [
   }
 ];
 
-
 export const EXPERIENCE = [
   {
     id: 'exp1',
-    company: 'Cama Cafe Inc.',
+    company: 'La Foret Julibee Cafe',
     position: 'Intern',
     period: 'Feb 2026 - Apr 2026',
     description: [
