@@ -20,7 +20,7 @@ export function Experience() {
               aria-label="Download Bryan Chen's Resume as a PDF"
               className="inline-flex items-center gap-2 text-md font-bold uppercase tracking-widest border-b-2 border-white pb-1 hover:text-dark-brown hover:border-dark-brown transition-all">
                 Download Resume
-                <span className='text-xs font-normal opacity-70'>(PDF, 78KB)</span>
+                <span className='text-xs font-normal opacity-70'>(PDF, 142KB)</span>
               </a>
           </div>
 

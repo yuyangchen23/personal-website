@@ -32,9 +32,22 @@ export const PROJECTS = [
 export const EXPERIENCE = [
   {
     id: 'exp1',
+    company: 'KTV working drone (Taiwan department)',
+    position: 'Contract worker',
+    period: 'Feb 2026 - May 2026',
+    description: [
+      'Developed a responsive frontend website using Next.js, React, TypeScript, and Tailwind CSS for KTV Working Drone’s Taiwan business.',
+      'Built dynamic service and news pages with reusable components, filtering, pagination, video embeds.',
+      'Established Contentful Headless CMS and designed non-technical fields to enable co-workers to manage content easily.',
+      'Implemented SEO foundations, including metadata, Open Graph tags, sitemap/robots support, canonical URLs, and structured JSON-LD for business, website, breadcrumbs, services, and news pages.'
+    ],
+    skills: ['React', 'Next.js', 'Javascript', 'SEO', 'UX Design', 'rest api', 'backend', 'headless cms'],
+  },
+  {
+    id: 'exp2',
     company: 'La Foret Julibee Cafe',
     position: 'Intern',
-    period: 'Feb 2026 - Apr 2026',
+    period: 'May 2025 - Aug 2025',
     description: [
       'Utilized modern-react tools to establish a fundamental layout for the restaurant\'s website',
       'Implemented designed system components to a specific project',
@@ -51,7 +64,7 @@ export const SKILLS = [
   },
   {
     category: 'Backend',
-    items: ['Node.js', 'PostgreSQL'],
+    items: ['Node.js', 'PostgreSQL', 'Python', 'C++'],
   },
   {
     category: 'Tools',

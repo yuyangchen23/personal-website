@@ -11,12 +11,12 @@ function App() {
 
 
   return (
-    <div className='min-h-screen selection:bg-accent selection:text-secondary'>
+    <div className='min-h-screen'>
       <Header />
       <main>
         <HomePage />
-        <Projects />
         <Experience />
+        <Projects />
         <SkillsSection />
         <ContactPage />
         <Footer />

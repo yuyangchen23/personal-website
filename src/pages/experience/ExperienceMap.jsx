@@ -27,7 +27,7 @@ export function ExperienceMap() {
 
           <ul className='space-y-3 mb-6'>
             {exp.description.map((item, j) => (
-              <li key={j} className='text-white text-md leading-relaxed flex gap-3'>
+              <li key={j} className='text-white text-[16px] leading-relaxed flex gap-3'>
                 <span className='text-accent mt-1.5 w-1.5 h-1.5 rounded-full shrink-0'></span>
                 {item}
               </li>

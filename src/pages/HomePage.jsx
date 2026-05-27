@@ -1,5 +1,4 @@
 import profileImg from '../assets/profile.PNG'
-import ribbonImg from '../assets/ribbon.png'
 import { motion } from 'motion/react'
 import { ArrowRight } from 'lucide-react'
 import { Header } from './header/Header';
@@ -8,16 +7,6 @@ import { Header } from './header/Header';
 export function HomePage() {
   return (
     <section id='about' className='min-h-screen flex items-center justify-center pt-20 px-6 overflow-hidden'>
-      <div className='fixed inset-0 flex items-center justify-center pointer-events-none z-[-1]' style={{ perspective: '1200px' }}>
-        <div style={{ transformStyle: 'preserve-3d' }}>
-          <img 
-            src={ribbonImg} 
-            className='w-150 h-150 md:w-[800px] md:h-[800px] object-contain animate-spin-slow opacity-80' 
-            style={{ backfaceVisibility: 'hidden' }}
-          />
-          <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 w-48 h-6 bg-black/10 blur-2xl rounded-[100%] transform-gpu"></div>
-        </div>
-      </div>
       
       <div className='relative max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center'>
         <motion.div
@@ -44,7 +33,7 @@ export function HomePage() {
 
           <div className='flex flex-wrap gap-4'>
             <motion.a
-              href='#projects'
+              href='#experience'
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className='bg-brown text-bg-dark px-8 py-4 rounded-full flex items-center gap-2 font-bold transition-shadow hover:shadow-xl hover:shadow-brown/20'>
