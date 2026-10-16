@@ -10,7 +10,7 @@ export function Projects() {
           <div max-w-2xl>
             <h2 className="text-sm uppercase tracking-[0.3rem] font-bold text-brown">selected works</h2>
             <h3 className="text-4xl md:text-5xl font-bold tracking-tight">
-              A collection of school projects
+              A collection of projects
             </h3>
           </div>
           <div className="text-white/40 italic text-lg">

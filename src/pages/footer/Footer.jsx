@@ -15,7 +15,7 @@ export function Footer() {
         </div> */}
 
         <div className="absolute left-1/2 -translate-x-1/2 text-[12px] uppercase tracking-[0.2em] font-bold text-white/80">
-          &copy; {currentYear} - Designed & Built by Bryan Chen
+          &copy; {currentYear} - Designed & Built by Yu-Yang Chen
         </div>
       </div>
     </footer>
