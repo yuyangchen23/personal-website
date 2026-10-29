@@ -1,4 +1,4 @@
-import profileImg from '../assets/profile.PNG'
+import profileImg from '../assets/resume_photo.webp'
 import { motion } from 'motion/react'
 import { ArrowRight } from 'lucide-react'
 import { Header } from './header/Header';
